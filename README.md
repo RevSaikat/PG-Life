@@ -12,7 +12,7 @@ First install xampp then start apache server and mysql server
 In xampp control panel goto admin and create a Table Name 'pglife' and import the sql database file
 then go to your web browser and search localhost/PGLife(The Downloaded File Name), after that if everything alright you've your website ready.
 
-#Features
+## Features
 * A functionable payment gateway ui
 * Add or delete user from admin
 * Expansive cities and pgs to choose
