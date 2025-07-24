@@ -2,7 +2,7 @@
 PGLife is a PG booking website that helps students and professionals find and book verified PG accommodations in major cities. Users can browse listings, view details, compare amenities, and make secure online bookings easily.
 
 ## Technologies
-| <img src="img/php.png" width="50%"> | <img src="" width="50%"> | <img src="" width="50%"> |
+| <img src="https://www.php.net//images/logos/new-php-logo.svg" width="50%"> | <img src="" width="50%"> | <img src="" width="50%"> |
 
 ## UI
 <img src="">
