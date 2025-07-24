@@ -5,7 +5,7 @@ PGLife is a PG booking website that helps students and professionals find and bo
 | <img src="https://www.php.net//images/logos/new-php-logo.svg" width="200"> | <img src="https://www.w3schools.com/whatis/img_css.jpg" width="200"> | <img src="https://www.w3schools.com/whatis/img_js.png" width="200"> |
 
 ## UI
-<img src="img/Capture.png">
+<img src="img/Capture.PNG">
 
 ## Deploy
 First install xampp then start apache server and mysql server
