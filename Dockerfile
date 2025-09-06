@@ -1,20 +1,20 @@
 # Use official PHP with Apache
 FROM php:8.2-apache
 
-# Install common PHP extensions (you can add more if needed)
+# Install PHP extensions for MySQL
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
-# Enable Apache mod_rewrite (optional, useful for clean URLs)
+# Enable Apache mod_rewrite (optional but useful)
 RUN a2enmod rewrite
 
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy your project files into the container
+# Copy project files
 COPY . /var/www/html
 
-# Expose port 80 for web traffic
+# Expose port
 EXPOSE 80
 
-# Start Apache in foreground
+# Start Apache
 CMD ["apache2-foreground"]
